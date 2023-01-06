@@ -1,9 +1,9 @@
-import './Register.scss';
-import Input from '../../../components/input/Input';
-import Button from '../../../components/button/Button';
+import Input from '@components/input/Input';
+import Button from '@components/button/Button';
+import '@pages/auth/register/Register.scss';
 import { useState, useEffect } from 'react';
-import { Utils } from '../../../services/utils/utils.service';
-import { authService } from '../../../services/api/auth/auth.service';
+import { Utils } from '@services/utils/utils.service';
+import { authService } from '@services/api/auth/auth.service';
 
 const Register = () => {
   const [username, setUsername] = useState('');

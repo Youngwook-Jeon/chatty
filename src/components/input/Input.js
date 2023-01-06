@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './Input.scss';
+import '@components/input/Input.scss';
 import { forwardRef } from 'react';
 
 const Input = forwardRef((props, ref) => (
